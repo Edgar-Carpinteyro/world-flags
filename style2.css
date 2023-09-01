@@ -1,0 +1,341 @@
+/*Bahamas flag*/
+.bahamas-flag > div {
+    background-color: #01579b;
+    height: 400px;
+    width: 700px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.bahamas-flag > div > div:first-child {
+    position: absolute;
+    background-color: yellow;
+    height: 33.3%;
+    width: 100%;
+    top: 33.3%;
+}
+
+.bahamas-flag > div > div:last-child{
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 200px solid transparent;
+    border-bottom: 200px solid transparent;
+    border-left: 300px solid black;
+}
+
+/*Bahrain flag*/
+.bahrain-flag > div {
+    background-color: darkred;
+    height: 400px;
+    width: 700px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.bahrain-flag > div > div:first-child {
+    position: absolute;
+    background-color: white;
+    height: 100%;
+    width: 25%;
+}
+
+.bahrain-flag > div > div:nth-child(2) {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 120px solid white;
+    left: 25%;
+}
+
+.bahrain-flag > div > div:nth-child(3) {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 120px solid white;
+    left: 25%;
+    top: 20%;
+}
+.bahrain-flag > div > div:nth-child(4) {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 120px solid white;
+    left: 25%;
+    top: 40%;
+}
+.bahrain-flag > div > div:nth-child(5) {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 120px solid white;
+    left: 25%;
+    top: 60%;
+}
+.bahrain-flag > div > div:nth-child(6) {
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    border-left: 120px solid white;
+    left: 25%;
+    top: 80%;
+}
+
+/*Finland flag*/
+.finland-flag > div {
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.finland-flag > div > div:first-child {
+    position: absolute;
+    background-color: navy;
+    height: 25%;
+    width: 100%;
+    top: 150px;
+}
+
+.finland-flag > div > div:last-child {
+    position: absolute;
+    background-color: navy;
+    height: 100%;
+    width: 15%;
+    left:25%;
+}
+
+/*Sweden*/
+.sweden-flag > div {
+    background-color: blue;
+    height: 400px;
+    width: 700px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.sweden-flag > div > div:first-child {
+    position: absolute;
+    background-color: yellow;
+    height: 20%;
+    width: 100%;
+    top: 150px;
+}
+
+.sweden-flag > div > div:last-child {
+    position: absolute;
+    background-color: yellow;
+    height: 100%;
+    width: 11%;
+    left:25%;
+}
+
+/*Belgium*/
+.belgium-flag > div {
+    background-color:black;
+    height: 400px;
+    width: 700px;
+    position: relative;
+  }
+
+  .belgium-flag div div:first-child {
+    background-color: yellow;
+    height: 100%;
+    width: 33.5%;
+    position: absolute;
+    left:33%;
+  }
+
+  .belgium-flag div div:last-child {
+    background-color: red;
+    height: 100%;
+    width: 33.5%;
+    position: absolute;
+    right:0;
+  }
+
+  /*Switzerland*/
+  .switzerland-flag > div {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.switzerland-flag > div > div:first-child {
+    position: absolute;
+    background-color: white;
+    height: 25%;
+    width: 75%;
+    left: 50px;
+    top: 150px;
+}
+
+.switzerland-flag > div > div:last-child {
+    position: absolute;
+    background-color: white;
+    height: 75%;
+    width: 25%;
+    left: 150px;
+    top: 50px;
+}
+
+/*Greece flag*/
+
+.greece-flag > div{
+    background-color: #01579b;
+    height: 400px;
+    width: 700px;
+    position: relative;
+}
+.greece-flag > div > div:first-child {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    height: 44.4px;
+}
+.greece-flag > div > div:nth-child(2) {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top:11.1%;
+    height: 44.4px;
+}
+
+.greece-flag> div > div:nth-child(3){
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    top: 22.2%;
+    height: 44.4px;
+}
+
+.greece-flag > div >div:nth-child(4){
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 33.3%;
+    height: 44.4px;
+}
+
+.greece-flag> div > div:nth-child(5){
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    top: 44.4%;
+    height: 44.4px;
+}
+
+.greece-flag > div >div:nth-child(6){
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 55.5%;
+    height: 44.4px;
+}
+
+.greece-flag> div > div:nth-child(7){
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    top: 66.6%;
+    height: 44.4px;
+}
+
+.greece-flag > div >div:nth-child(8){
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    top: 77.7%;
+    height: 44.4px;
+}
+
+.greece-flag > div > div:nth-child(9){
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    top: 88.8%;
+}
+
+.greece-flag > div > div:last-child{
+    position: absolute;
+    background-color: #01579b;
+    width: 222px;
+    height: 222px;
+}
+
+.greece-flag > div > div:last-child > div:first-child{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 44.4px;
+    top: 88.8px;
+}
+
+.greece-flag > div > div:last-child > div:last-child{
+    position: absolute;
+    background-color: white;
+    width: 44.4px;
+    height: 100%;
+    left: 88.8px;
+}
+
+/*Yemen Flag*/
+.yemen-flag > div {
+    position: relative;
+    background-color: darkred;
+    height: 400px;
+    width: 700px;
+}
+
+.yemen-flag > div > div:first-child {
+    position: absolute;
+    background-color: white;
+    height: 33.3%;
+    width: 100%;
+    top: 33.3%;
+}
+
+.yemen-flag > div > div:last-child {
+    position: absolute;
+    background-color: black;
+    height: 33.3%;
+    width: 100%;
+    top: 66.6%;
+}
+
+/*Netherlands*/
+.netherlands-flag > div {
+    position: relative;
+    background-color: darkred;
+    height: 400px;
+    width: 700px;
+}
+
+.netherlands-flag > div > div:first-child {
+    position: absolute;
+    background-color: white;
+    height: 33.3%;
+    width: 100%;
+    top: 33.3%;
+}
+
+.netherlands-flag > div > div:last-child {
+    position: absolute;
+    background-color: darkblue;
+    height: 33.3%;
+    width: 100%;
+    top: 66.6%;
+}

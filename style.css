@@ -1,0 +1,183 @@
+body{
+    background-color:#FAF0E4;
+}
+
+p{
+   font-weight: bold; 
+}
+/*Palau Flag*/
+.palau-flag > div{
+background-color: #30a2ff;
+height: 200px;
+width: 350px;
+position: relative;
+}
+
+.palau-flag > div div{
+background-color: #FFF323;
+height: 125px;
+width: 125px;
+position: absolute;
+border-radius: 50%;
+top: 20%;
+left: 75px;
+}
+
+/*Japan Flag*/
+.japan-flag > div{
+background-color:white;
+border: 1px  solid;
+height: 200px;
+width: 350px;
+position: relative;
+}
+
+.japan-flag div div{
+background-color: red;
+height: 125px;
+width: 125px;
+position: absolute;
+border-radius: 50%;
+top:20%;
+left:112.5px;
+} 
+
+/*Ukraine Flag*/
+.ukraine-flag > div{
+background-color: #0057b7;
+height: 200px;
+width: 350px;
+position: relative;
+}
+
+.ukraine-flag div div {
+background-color: #ffd700;
+height: 100px;
+width: 100%;
+position: absolute;
+top:100px
+}
+
+/*Latvia*/
+.latvia-flag > div {
+background-color: brown;
+height: 200px;
+width: 350px;
+position: relative;
+border: 1px solid;
+}
+
+.latvia-flag div div {
+background-color: white;
+height: 50px;
+width: 100%;
+position: absolute;
+top: 75px;
+}
+
+/*Nigeria*/
+.nigeria-flag > div {
+background-color: green;
+height: 200px;
+width: 350px;
+position: relative;
+border: 1px solid;
+}
+
+.nigeria-flag div div {
+background-color: white;
+height: 100%;
+width: 33%;
+position: absolute;
+left:33%;
+border-top: 0;
+}
+
+/*Peru*/
+.peru-flag > div {
+background-color: red;
+height: 200px;
+width: 350px;
+position: relative;
+border: 1px solid;
+}
+
+.peru-flag div div {
+background-color: white;
+height: 100%;
+width: 33%;
+position: absolute;
+left:33%;
+}
+
+/*Poland*/
+.poland-flag div{
+background-color: white;
+height: 200px;
+width: 350px;
+position: relative;
+border: 1px solid;
+}
+
+.poland-flag div div {
+background-color: red;
+height: 100px;
+width: 100%;
+position: absolute;
+top:100px;
+border-left: 0;
+}
+
+/*Monaco & Indonesia*/
+.monaco-flag div{
+background-color: red;
+height: 200px;
+width: 350px;
+position: relative;
+border: 1px solid;
+}
+
+.monaco-flag div div {
+background-color: white;
+height: 100px;
+width: 100%;
+position: absolute;
+top:100px;
+border-left: 0;
+}
+
+/*Austria*/
+.austria-flag div {
+background-color: red;
+height: 200px;
+width: 350px;
+position: relative;
+border: 1px solid;
+}
+
+.austria-flag div div {
+background-color: white;
+height: 33%;
+width: 100%;
+position: absolute;
+top: 33%;
+border: 0;
+}
+
+/*Bangladesh*/
+.bangladesh-flag > div{
+background-color:darkgreen;
+height: 200px;
+width: 350px;
+position: relative;
+}
+
+.bangladesh-flag > div div {
+background-color: #B31312 ;
+height: 125px;
+width: 125px;
+position: absolute;
+border-radius: 50%;
+top: 20%;
+left: 75px;
+}
