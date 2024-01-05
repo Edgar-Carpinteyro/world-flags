@@ -1,9 +1,21 @@
 body{
     background-color:#FAF0E4;
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    margin-top: 8%;
 }
 
-p{
-   font-weight: bold; 
+/*Flexbox to have flags next to each other with space around them*/
+.level-one{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+    margin-left: 5px;
+    margin-right: 5px;
+   
 }
 /*Palau Flag*/
 .palau-flag > div{

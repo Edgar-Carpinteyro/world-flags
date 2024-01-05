@@ -1,3 +1,11 @@
+
+/*Flexbox to have flags next to each other with space around them*/
+.level-two{
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-around;
+}
+
 /*Bahamas flag*/
 .bahamas-flag > div {
     background-color: #01579b;
